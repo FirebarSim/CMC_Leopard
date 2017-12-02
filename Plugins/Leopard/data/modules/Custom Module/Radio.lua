@@ -17,7 +17,7 @@ function draw()
 	drawText(sevenSeg,600,102,string.format("%3.2f",get(globalPropertyf("sim/cockpit2/radios/actuators/nav1_frequency_hz"))/100),58,false,false,TEXT_ALIGN_RIGHT,quartz_colour)
 	drawText(sevenSeg,600,6,string.format("%3.2f",get(globalPropertyf("sim/cockpit2/radios/actuators/nav1_standby_frequency_hz"))/100),58,false,false,TEXT_ALIGN_RIGHT,quartz_colour)
 	--Xpndr
-	drawText(sevenSeg,901,102,string.format("%3.2f",get(globalPropertyf("sim/cockpit2/radios/actuators/nav1_frequency_hz"))/100),58,false,false,TEXT_ALIGN_RIGHT,quartz_colour)
+	drawText(sevenSeg,901,102,string.format("%4i",get(globalPropertyi("sim/cockpit2/radios/actuators/transponder_code"))),58,false,false,TEXT_ALIGN_RIGHT,quartz_colour)
 	--Com 2
 	drawText(sevenSeg,1208,102,string.format("%3.2f",get(globalPropertyf("sim/cockpit2/radios/actuators/com2_frequency_hz"))/100),58,false,false,TEXT_ALIGN_RIGHT,quartz_colour)
 	drawText(sevenSeg,1208,6,string.format("%3.2f",get(globalPropertyf("sim/cockpit2/radios/actuators/com2_standby_frequency_hz"))/100),58,false,false,TEXT_ALIGN_RIGHT,quartz_colour)

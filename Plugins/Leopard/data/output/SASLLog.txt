@@ -1,4 +1,4 @@
-[LEOPARD INFO]: Path to module: G:\XP11SteamLibrary/steamapps/common/X-Plane 11/Aircraft/Firebar/CMC Leopard/plugins/Leopard/data/modules/main.lua
+[LEOPARD INFO]: Path to module: C:\Users/mburl/Desktop/X-Plane 11/Aircraft/Firebar/CMC_Leopard/plugins/Leopard/data/modules/main.lua
 [LEOPARD INFO]: Loading module...
 [LEOPARD INFO]:  [LUA]: loading	module
 [LEOPARD INFO]:  [LUA]: loading	liftDumper
@@ -7,5 +7,8 @@
 [LEOPARD INFO]:  [LUA]: loading	ASI
 [LEOPARD INFO]:  [LUA]: loading	ALT
 [LEOPARD INFO]:  [LUA]: loading	Radio
+[LEOPARD INFO]:  [LUA]: loading	Engine
 [LEOPARD INFO]: Loading cursors...
 [LEOPARD INFO]: Module loaded
+[LEOPARD INFO]: Disabling...
+[LEOPARD INFO]: SASL plugin stopped...

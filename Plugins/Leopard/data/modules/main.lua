@@ -16,4 +16,6 @@ components = {
 		position = {764,217,561,151}},
 	Radio {
 		position = {517,5,1522,192}},
+	Engine {
+		position = {1344,201,685,1623}},
 }
