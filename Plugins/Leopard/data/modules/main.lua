@@ -4,6 +4,9 @@ panel2d = false
 panelWidth3d = 2048
 panelHeight3d = 2048
 
+set(globalPropertyf("sim/private/controls/shadow/cockpit_near_adjust"),2)
+set(globalPropertyf("sim/private/controls/shadow/cockpit_near_proxy"),0.01)
+
 components = {
 	liftDumper {},
 	ADI {
@@ -18,4 +21,5 @@ components = {
 		position = {517,5,1522,192}},
 	Engine {
 		position = {1344,201,685,1623}},
+	customSwitches {},
 }

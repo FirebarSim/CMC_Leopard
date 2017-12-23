@@ -243,7 +243,7 @@ function draw()
 		drawWideLine(0,240,0,260,2,colour_white)
 		setRotateTransform(135)
 		--Heading Bug Full
-		setRotateTransform(0) --Swing
+		setRotateTransform(get(globalPropertyf("sim/cockpit2/autopilot/heading_dial_deg_mag_pilot"))-get(globalPropertyf("sim/cockpit2/gauges/indicators/heading_electric_deg_mag_pilot"))) --Swing
 		drawConvexPolygon({-2,243,-26,243,-26,267,-14,267},true,0,colour_orange)
 		drawConvexPolygon({2,243,26,243,26,267,14,267},true,0,colour_orange)
 	restoreGraphicsContext()
